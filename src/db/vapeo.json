@@ -1,0 +1,144 @@
+{
+    
+"vapeKits": [
+    {
+      "brand": "mipods",
+      "name":"Midnight Hue Mi-Pod PRO +",
+      "img":"/src/assets/products/Black_Raw_79411a8f-2dfb-4ec6-adfb-db9e734b5779_600x.png",
+      "price":"129.99"
+    },
+    {
+      "brand":"mipods",
+     
+      "name":"Yellowjacket Mi-Pod PRO +",
+      "img":"/src/assets/products/YellowJacket_Angled_600x.png",
+      "price":"129.99"
+    },
+    {
+      "brand":"mipods",
+     
+      "name":"Sea Dragon Mi-Pod PRO +",
+      "img":"/src/assets/products/Sea_Dragon_600x.png",
+      "price":"129.99"
+    },
+    {
+      "brand":"mipods",
+     
+      "name":"White Scales Mi-Pod 2.0 +",
+      "img":"/src/assets/products/White_Scales_A1_600x.png",
+      "price":"149.99"
+    },
+    {
+      "brand":"mipods",
+      
+      "name":"Sand Scales Mi-Pod 2.0 +",
+      "img":"/src/assets/products/Sand_Scales_A1_600x.png",
+      "price":"149.99"
+    },
+    {
+      "brand":"mipods",
+      
+      "name":"Midnight Hue Mi-Pod PRO +",
+      "img":"/src/assets/products/Dark_Scales_A1_600x.png",
+      "price":"129.99"
+    },
+    {
+      "brand":"smok",
+      
+      "name":"SMOK Novo 2",
+      "img":"/src/assets/products/Blue-And-Black_Novo-2_Smok_600x600_0ba2f09e-f5b0-407c-9711-7d681198cce2_600x.png",
+      "price":"89.99"
+    },
+    {
+      "brand":"smok",
+    
+      "name":"SMOK Novo 4",
+      "img":"/src/assets/products/Black-Armor_Novo-4_Smok_600x600_aa258517-b1b2-4341-952e-b57d3122f0df_600x.png",
+     "price":"89.99"
+    },
+    {
+      "brand":"smok",
+     
+      "name":"SMOK Novo 4 Mini",
+      "img":"/src/assets/products/7-Color-Cobra_Novo-4-Mini_Smok_600x600_11b354d7-ac96-4758-bce3-1e7d448a930f_600x.png",
+      "price":"89.99"
+    },
+    
+    {
+      "brand":"oxbar",
+      
+      "name":"Oxbar RRD Kit - Purple",
+      "img":"/src/assets/products/Purple_1_600x.png",
+      "price":"59.99"
+    },
+    {
+      "brand":"oxbar",
+     
+      "name":"Oxbar RRD Kit - Sakura Gradient",
+      "img":"/src/assets/products/Sakura_Gradient_600x.png",
+      "price":"59.99"
+    },
+    {
+      "brand":"oxbar",
+     
+      "name":"Oxbar RRD Kit - Silver",
+      "img":"/src/assets/products/oxbar-Silver_600x.png",
+      "price":"59.99"
+    },
+    {
+      "brand":"suorin",
+     
+      "name":"Suorin Air Pro",
+      "img":"/src/assets/products/Black_Air-Pro_Suorin_600x600_49129109-b72f-4b34-8981-a748cf0899be_600x.png",
+      "price":"99.99"
+    },
+    {
+      "brand":"suorin",
+
+      "name":"Suorin Air Pro",
+      "img":"/src/assets/products/Black_Air-Pro_Suorin_600x600_49129109-b72f-4b34-8981-a748cf0899be_600x.png",
+      "price":"99.99"
+    },
+    {
+      "brand":"vaperesson",
+     
+      "name":"Vaporesso XROS 2",
+      "img":"/src/assets/products/Aurora_Xros-2_Vaperesso_600x600_0d95ea19-3669-479c-987f-8d7de9d313bf_600x.png",
+      "price":"99.99"
+    },
+    {
+      "brand":"vaperesson",
+    
+      "name":"Vaporesso XROS 3",
+      "img":"/src/assets/products/Icy-Silver_Xros-3_Vaperesso_600x600_ad1cdece-5342-42be-a06c-450d94ab8301_600x.png",
+      "price":"99.99"
+    }
+    ,
+    {
+      "brand":"drag",
+     
+      "name":"Voopoo Drag 3 177W Mod Kit - Eagle Grey",
+      "img":"/src/assets/products/IND-HW-EQUIP-888.png",
+      "price":"99.99"
+    }
+    ,
+    {
+      "brand":"drag",
+    
+      "name":"Voopoo Drag 3 177W Mod Kit - Silver Dream Blue",
+      "img":"/src/assets/products/IND-HW-EQUIP-887.png",
+      "price":"99.99"
+    }
+    ,
+    {
+      "brand":"drag",
+      
+      "name":"Voopoo Drag 3 177W Mod Kit - Black",
+      "img":"/src/assets/products/IND-HW-EQUIP-750.png",
+      "price":"99.99"
+    }
+
+    
+    
+  ]
+}

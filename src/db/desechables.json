@@ -1,0 +1,77 @@
+{
+  
+  "desechables": [
+
+
+    {
+      "brand":"escobar",
+     
+      "name":"Blue Raspberry Lemon Esco Bar",
+      "img":"/src/assets/products/Blue_Rapsberry_Lemon_600x.png",
+      "price":"39.99"
+    },
+    {
+      "brand":"escobar",
+     
+      "name":"Jungle Juice Esco Bar 6000",
+      "img":"/src/assets/products/Jungle_Juice_600x.png",
+      "price":"59.99"
+    },
+    {
+      "brand":"escobar",
+     
+      "name":"Mango Berry Ice Esco Bar MEGA",
+      "img":"/src/assets/products/Mango_Berry_Ice_600x.png",
+      "price":"49.99"
+    },
+    {
+      "brand":"fume",
+      
+      "name":"Black Ice Fume Mini",
+      "img":"/src/assets/products/black-ice_fume-mini_d_b_600x.png",
+      "price":"29.99"
+    },
+    {
+      "brand":"fume",
+     
+      "name":"Strawberry Watermelon Fume Mini",
+      "img":"/src/assets/products/strawberry-watermelon_fume-mini_d_b_600x.png",
+      "price":"99.99"
+    },
+    {
+      "brand":"fume",
+    
+      "name":"Gummy Bears Fume Ultra",
+      "img":"/src/assets/products/Gummy_Bears_Ultra_600x.png",
+      "price":"55.99"
+    },
+    {
+      "brand":"airbar",
+      
+      "name":"Watermelon Ice Air Bar NEX",
+      "img":"/src/assets/products/watermelon-ice_airbar-nex_600x600_52aaa8b1-e5e4-4825-a872-3eb52db8ad06_600x.png",
+      "price":"45.99"
+    },
+    {
+      "brand":"airbar",
+      
+      "name":"Gummy Bears Air Bar Box",
+      "img":"/src/assets/products/gummyBears_600x.png",
+      "price":"99.99"
+    },
+    {
+      "brand":"flonq",
+      
+      "name":"VPink Lemonade Flonq Max",
+      "img":"/src/assets/products/Flonq-Pink-Lemonade_Device_600x600_v2_600x.png",
+      "price":"69.99"
+    }
+    ,
+    {
+      "brand":"flonq",
+      "name":"Decadent Flonq Max Sampler Pack",
+      "img":"/src/assets/products/Flonq-SET2-DESSERT_july2023_sampler-image_600x.png",
+      "price":"199.99"
+    }
+  ]
+}

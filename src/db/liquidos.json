@@ -1,0 +1,69 @@
+{
+    "liquidos":[
+
+    {
+    "brand":"juice head",
+    "img":"/src/assets/products/Blueberry_Lemon_25_600x.png",
+    "name":"Blueberry Lemon Juice Head Salt",
+    "price":"36.99"
+    }
+    ,
+    {
+      "brand":"juice head",
+      "img":"/src/assets/products/Watermelon_Lime_25_600x.png",
+      "name":"Watermelon Lime Juice Head Salt",
+      "price":"36.99"
+    }
+    ,
+    {
+      "brand":"juice head",
+      "img":"/src/assets/products/raspberry-lemonade-35mg-bottle_juice-head_600x.png",
+      "name":"Raspberry Lemonade Juice Head Salt",
+      "price":"36.99"
+    }
+    ,
+    {
+      "brand":"vaporlax",
+      "img":"/src/assets/products/peach-ice-50mg-salt_600x.png",
+      "name":"Peach Ice VaporLax Salt",
+      "price":"29.99"
+    }
+    ,
+    {
+      "brand":"vaporlax",
+      "img":"/src/assets/products/blueberry-ice-50mg-salt_600x.png",
+      "name":"Blueberry Ice VaporLax Salt",
+      "price":"29.99"
+    }
+    ,
+    {
+      "brand":"vaporlax",
+      "img":"/src/assets/products/energy-50mg-salt_600x.png",
+      "name":"Energy VaporLax Salt",
+      "price":"29.99"
+    }
+    ,
+    {
+      "brand":"isalts",
+      "img":"/src/assets/products/Strawberry_Guava_25_600x.png",
+      "name":"I Love Salts Strawberry Guava ",
+      "price":"39.99"
+    }
+    ,
+    {
+      "brand":"isalts",
+      "img":"/src/assets/products/Peach_Mango_Ice_79c244ed-cbdf-4c8f-8eda-0cbd297081a0_600x.png",
+      "name":"I Love Salts Peach Mango",
+      "price":"39.99"
+    }
+    ,
+    {
+      "brand":"isalts",
+      "img":"/src/assets/products/Blue_Raspberry_Ice_25mg_600x.png",
+      "name":"I Love Salts Blue Raspberry Ice",
+      "price":"39.99"
+    }
+    
+    
+]
+}
