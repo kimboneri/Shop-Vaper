@@ -1,0 +1,15 @@
+@import '/src/sass/App.scss';
+
+
+.header{
+    position: relative;
+    @include container;
+    @include display(flex,space-between,center,center);
+
+    width: auto;
+    height: auto;
+    padding: 1.5rem;
+    background-color: #68686879;
+    border-radius: 1rem;
+    z-index: 2;
+}

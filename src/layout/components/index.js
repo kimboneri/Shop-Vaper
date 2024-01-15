@@ -1,4 +1,6 @@
-export {default as CartIcon} from './cartIcon/CartIcon.jsx'
+
+export {default as Box} from './Box/Box.jsx' 
+export {default as Logo} from './Logo/Logo.jsx'
 export {default as NavBar} from './NavBar/NavBar.jsx'
-export {default as Search} from './search/Search.jsx'
- 
+export {default as BgChanger} from './BgChanger/BgChanger.jsx'
+export {default as Slider} from './Slider/Slider.jsx'

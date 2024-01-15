@@ -1,0 +1,25 @@
+@import'/src/sass/App.scss';
+
+.shopping-cart{
+    width: 100%;
+
+    svg{
+        cursor: pointer ;
+        fill: $white;
+        width: 25px;
+        transition: all 0.5s ease-in-out;
+       &:hover{
+        transform: scale(1.1);
+        
+       }
+    }
+    span{
+        padding: .1rem .5rem;
+        border-radius: 100%;
+        background-color: $jade;
+        position: relative;
+        bottom: 1rem;
+        right: .2rem;
+        color: rgb(0, 0, 0);
+        }
+}

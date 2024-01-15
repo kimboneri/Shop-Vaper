@@ -1,0 +1,9 @@
+@import '/src/sass/App.scss';
+.swiper-card{
+    width: 100%;
+    
+    &__img{
+        object-fit: cover;
+        width:50rem;
+    }
+}

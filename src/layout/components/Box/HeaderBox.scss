@@ -1,0 +1,5 @@
+@import "/src/sass/App.scss";
+.header__box{
+    @include display(flex,space-between,center,center);
+    gap: 2rem;
+}

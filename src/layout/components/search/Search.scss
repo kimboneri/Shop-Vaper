@@ -1,0 +1,23 @@
+
+@import '/src/sass/App.scss';
+.search{
+    display: flex;
+    gap: 1.5rem;
+    background-color: $jade;
+    background-image: $gradient;
+    border-radius: 1rem;
+    width: 250px;
+    height: 40px;
+    padding: 0 1rem;
+    
+    svg{
+        fill: $gray;
+        width: 25px;
+    }
+    input{
+        border: none;
+        outline: none;
+        background-color: transparent ;
+        align-self: center;
+    }
+}
