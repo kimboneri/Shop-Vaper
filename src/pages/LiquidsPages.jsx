@@ -1,5 +1,10 @@
-export const LiquidsPages = () => {
+import Header from "../layout/header/Header";
+
+
+const LiquidsPages = () => {
   return (
-    <div>LiquidsPages</div>
+    <Header/>
   )
 }
+
+export default LiquidsPages

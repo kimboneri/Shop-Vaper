@@ -1,26 +1,8 @@
 @import "/src/sass/App.scss";
 
-.header__logo {
-  @include display(flex, center, center, center);
-  gap: 1rem;
-
-  .img {
-    width: 80px;
-    img {
-      width: 100%;
-    }
+.img {
+  width: 80px;
+  img {
+    width: 100%;
   }
-  .text
-  {
-      h2{
-          font-weight: 600;
-          color: $white;
-          font-size: 3rem;
-         
-          span{
-              color: $jade;
-          }
-      
-  }
-}
 }

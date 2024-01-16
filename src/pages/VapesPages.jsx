@@ -1,6 +1,10 @@
-export const VapesPages = () => {
+import Header from "../layout/header/Header";
+
+
+const VapesPages = () => {
   return (
-    <div>VapesPages</div>
+    <Header/>
   )
 }
 
+export default VapesPages

@@ -1,0 +1,39 @@
+@import "/src/sass/App.scss";
+.swiper-container {
+  position: relative;
+  width: 100%;
+  padding: 10px 0px;
+  overflow: hidden;
+  
+}
+.swiper-container .swiper-slide{
+    background-color: transparent ;
+    border-radius: 0;
+    
+}
+
+.top-vapes {
+
+  height: 100%;
+  @include container;
+  h2 {
+    text-align: center;
+    color: $white;
+    padding-bottom: 7rem;
+    margin-top: 20rem;
+    font-family: $monserratFont;
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+  img {
+    width: 300px;
+    
+  }
+}
+.swiper-button-prev{
+   color: $jade;
+}
+.swiper-button-next{
+    color: $jade;
+}

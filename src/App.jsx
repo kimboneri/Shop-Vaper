@@ -1,14 +1,11 @@
-import Header from "./layout/header/Header";
-import { BgChanger,Slider } from "./layout/components";
-import slides from "./db/publicidad.json"
+import AppRouter from "./router/AppRouter";
+
+
 
 const App = () => {
   return (
     <>
-      <BgChanger>
-        <Header />
-      </BgChanger>
-     <Slider slides={slides} />   
+      <AppRouter/>
     </>
   );
 };

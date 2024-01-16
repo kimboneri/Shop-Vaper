@@ -11,7 +11,7 @@ const NavBar = () => {
         <NavLink className="header__nav__link" to="/vapes">
           VAPES
         </NavLink>
-        <NavLink className="header__nav__link" to="/desechables">
+        <NavLink className="header__nav__link" to="/desechable">
           DESECHABLES
         </NavLink>
         <NavLink className="header__nav__link" to="/liquidos">

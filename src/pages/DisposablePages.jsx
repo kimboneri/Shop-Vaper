@@ -1,9 +1,10 @@
-export const DisposablePages = () => {
+import Header from "../layout/header/Header";
+
+
+const DisposablePages = () => {
   return (
-    <div>
-
-      
-
-    </div>
+   <Header/>
   )
 }
+
+export default DisposablePages;

@@ -1,0 +1,26 @@
+@import '/src/sass/App.scss';
+.category{
+    margin-bottom: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 5rem;
+    &__tittle{
+        margin-top: 20rem;
+        text-align: center;
+        color: $white;
+        padding-bottom: 7rem;
+        font-family: $monserratFont;
+        font-weight:700;
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
+    &__card{
+        @include container;
+        display: flex;
+        gap: 5rem;
+    }
+}
+
