@@ -9,15 +9,30 @@
     width: 250px;
     height: 40px;
     padding: 0 1rem;
-    
+    @include tablet{
+        width: 100%;
+    }
+   @include phone {
+    width: 100%;
+   }
     svg{
         fill: $gray;
         width: 25px;
+       
     }
     input{
         border: none;
         outline: none;
         background-color: transparent ;
         align-self: center;
+        @include tablet{
+            display: none;
+        }
+        @include phone{
+            display: none;
+        }
     }
+}
+.logo-search{
+    display: block !important;
 }

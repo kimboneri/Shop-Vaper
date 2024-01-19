@@ -6,16 +6,18 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <Link to="/home">
-          <div className="header__logo">
+        <div className="header__logo">
+          <Link to="/home">
             <Logo />
-            <div className="text">
-              <h2>
-                <span>Haky</span>VAPE
-              </h2>
-            </div>
+          </Link>
+          <div className="text">
+            <h2>
+              <span>Haky</span>VAPE
+            </h2>
           </div>
-        </Link>
+        </div>
+
+        
         <NavBar />
         <Box />
       </header>

@@ -2,6 +2,9 @@
 
 .img {
   width: 80px;
+  @include phone{
+    width: 50px;
+  }
   img {
     width: 100%;
   }

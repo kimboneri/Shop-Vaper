@@ -9,12 +9,14 @@
 .swiper-container .swiper-slide{
     background-color: transparent ;
     border-radius: 0;
+   
     
 }
 
 .top-vapes {
 
   height: 100%;
+  
   @include container;
   h2 {
     text-align: center;

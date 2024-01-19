@@ -1,0 +1,64 @@
+@import '/src/sass/App.scss';
+
+.productsVapes{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: transparent ;
+    width: 100%;
+    gap: 6rem;
+    padding: 2rem 2rem 0 ;
+    flex: 1;
+    @include tablet{
+        grid-template-columns: 1fr 1fr;
+    }
+    @include phone{
+        grid-template-columns: 1fr;
+    }
+
+    &__card{
+        width: 100%;
+        box-shadow: 0px 0px 10px $gray;
+       background-color: #68686855;
+       transition: all 0.5s ease-in-out;
+       justify-content: space-between;
+
+       &__img{
+        width:100% ;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+       }
+         &__text{
+            text-align: center;
+            padding: 1rem;
+            p{
+                color: $white;
+                font-family: $karlaFont;
+                font-size: 2rem;
+            }
+
+            span{
+                color: $gray;
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+         } 
+         .sendCart{
+            text-align: center;
+            width: 100%;
+            background-image: $gradient;
+            border-radius: 2rem;
+            padding: 1rem;
+            margin-top: 1rem;
+            cursor: pointer;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+                
+            }    
+         }  
+
+    }
+}

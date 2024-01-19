@@ -1,33 +1,33 @@
-@import '/src/sass/App.scss';
+@import "/src/sass/App.scss";
 
+.header {
+  position: relative;
+  @include container;
+  @include display(flex, space-between, center, center);
+  width: auto;
+  height: auto;
+  padding: 1.5rem;
+  background-color: #68686879;
+  border-radius: 1rem;
+  z-index: 2;
 
-.header{
-    position: relative;
-    @include container;
-    @include display(flex,space-between,center,center);
+  .header__logo {
+    @include display(flex, center, center, center);
+    gap: 1rem;
+    @include phone {
+      display: flex;
+      flex-direction: column;
+    }
+    .text {
+      h2 {
+        font-weight: 600;
+        color: $white;
+        font-size: 3rem;
 
-    width: auto;
-    height: auto;
-    padding: 1.5rem;
-    background-color: #68686879;
-    border-radius: 1rem;
-    z-index: 2;
-
-    .header__logo {
-        @include display(flex, center, center, center);
-        gap: 1rem;
-        .text {
-            h2 {
-              font-weight: 600;
-              color: $white;
-              font-size: 3rem;
-      
-              span {
-                color: $jade;
-              }
-            }
-          }
-        
+        span {
+          color: $jade;
+        }
       }
-    
+    }
+  }
 }

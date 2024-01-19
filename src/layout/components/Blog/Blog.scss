@@ -15,6 +15,10 @@
         border: 1px solid $jade;
         width: 650px;
         object-fit: cover;
+        @include tablet {
+            height: 200px;
+            width: 200px;
+        }
     }
    }
    &__content{

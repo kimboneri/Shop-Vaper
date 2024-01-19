@@ -17,14 +17,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__content-2__box-2">
-          <div class="custom-support">
+          <div className="custom-support">
             <h3>SERVICIO AL CLIENTE</h3>
-            <a href="pageInfo.html">Preguntas Frecuentes</a>
+            <a href="#">Preguntas Frecuentes</a>
             <a href="#">Terminos y Condiciones</a>
             <a href="#">Politica de Privacidad</a>
             <a href="#">Medio de Pago</a>
           </div>
-          <div class="hakyVape">
+          <div className="hakyVape">
             <h3>HAKY</h3>
             <a href="">Quienes Somos</a>
             <img
@@ -32,12 +32,12 @@ const Footer = () => {
               alt="Error de carga de la imagen"
             />
           </div>
-          <div class="contact-info">
+          <div className="contact-info">
             <h3>Contactame</h3>
             <p>empresa@hakyVape.com</p>
           </div>
         </div>
-        <p class="footer__content-2__copyright">&copy 2023 HAKYVAPE. Todos los derechos reservados</p>
+        <p className="footer__content-2__copyright">&copy 2023 HAKYVAPE. Todos los derechos reservados</p>
       </div>
     </footer>
   );

@@ -1,5 +1,5 @@
 import Search from "../search/Search";
-import CartIcon from "../cartIcon/CartIcon";
+import CartIcon from "../CartIcon/CartIcon";
 import './HeaderBox.scss'
 const HeaderBox = () => {
   return (

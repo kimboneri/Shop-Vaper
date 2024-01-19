@@ -4,7 +4,9 @@ import Main from "../layout/main/Main";
 import Footer from "../layout/footer/Footer";
 
 
-const HomePages = () => {
+
+
+const HomePages = () => { 
   return (
     <>
       <BgChanger>
@@ -12,7 +14,6 @@ const HomePages = () => {
       </BgChanger>
       <Main/>
       <Footer/>
-     
     </>
   );
 };

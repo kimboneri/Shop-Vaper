@@ -1,9 +1,21 @@
 @import "/src/sass/App.scss";
 
 .header__nav{
+
+  @include desktop{
+    
+    
+    flex-direction: column;
+    
+  }
+  @include phone{
+    display:flex ;
+    flex-direction: column;
+  }
   display: flex;
   gap: 4rem;
   padding-left: 2rem;
+
   a {
     display: block;
     transition: 0.2s ease-in-out;
@@ -12,4 +24,16 @@
       color: $jade;
     }
   }
+ 
 }
+.category-logo {
+  
+  display: none;
+  color: $jade;
+  @include desktop {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+

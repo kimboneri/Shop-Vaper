@@ -1,0 +1,8 @@
+@import "/src/sass/App.scss";
+.content-vapes {
+  gap: 3rem;
+  display: flex;
+  height: 100%;
+  @include container;
+  padding: 2rem 0 0 0;
+}

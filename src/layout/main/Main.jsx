@@ -8,7 +8,6 @@ const Main = () => {
       <SliderPromo />
       <Category/>
       <Blog/>
-      
     </div>
   );
 };

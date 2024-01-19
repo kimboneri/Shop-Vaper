@@ -1,12 +1,14 @@
 
-import './CardCategory.scss';
-const CardCategory = ({url,text}) => {
+import "./CardCategory.scss";
+const CardCategory = ({ url, text }) => {
   return (
-    <div className="card">
-        <img src={url} alt="" />
+   
+      <div  className="card">
+        <img src={url} alt="error de carga de la imagen" />
         <p>{text}</p>
-    </div>
-  ) 
-}
+      </div>
+   
+  );
+};
 
-export default CardCategory
+export default CardCategory;

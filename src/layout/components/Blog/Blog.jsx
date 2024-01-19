@@ -40,10 +40,10 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item edit__1">
-            <h2 class="accordion-header edit__2">
+          <div className="accordion-item edit__1">
+            <h2 className="accordion-header edit__2">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -55,10 +55,10 @@ const Blog = () => {
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse edit__2-1"
+              className="accordion-collapse collapse edit__2-1"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body edit__2-2">
+              <div className="accordion-body edit__2-2">
                 Implica un equilibrio entre el potencial reducido de daño en
                 comparación con el tabaquismo tradicional y los posibles riesgos
                 asociados con el vapeo. La investigación continua y la
@@ -67,10 +67,10 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item edit__1">
-            <h2 class="accordion-header edit__2">
+          <div className="accordion-item edit__1">
+            <h2 className="accordion-header edit__2">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -82,10 +82,10 @@ const Blog = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse edit__2-1"
+              className="accordion-collapse collapse edit__2-1"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body edit__2-2">
+              <div className="accordion-body edit__2-2">
                 Mejora tu experiencia de vapeo con estos consejos clave. Elige
                 un dispositivo adecuado, prueba diferentes sabores de e-líquidos
                 y mantén tu dispositivo limpio. Ajusta la potencia según tus
