@@ -80,10 +80,14 @@
         }
       }
       .product-tittle{
-        background-color: aqua;
+        
       }
       .product-price{
-       background-color: black;
+
+        span{
+          color: black;
+        }
+        
       }
       .product-close{
         svg{

@@ -7,7 +7,10 @@ const CartIcon = () => {
     const results = allProducts.filter(
       item => item.name !== product.name
     )
-    setTotal(total - product.price * product.quantity);
+
+    let confi = total - product.price * product.quantity
+
+    setTotal(parseFloat(confi.toFixed(2)))
     setCountProducts(countProducts - product.quantity);
     setAllProducts(results)
     
@@ -145,7 +148,7 @@ const CartIcon = () => {
               
               <div className="total">
                 <span>Total</span>
-                <span>s/213132</span>
+                <span>s/0</span>
               </div>
               <div className="box">
                 <div className="go-shoppingBag">
