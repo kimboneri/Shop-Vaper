@@ -1,8 +1,31 @@
-# React + Vite
+# Proyecto-ECOMMERCE
+# DESCRIPCIÓN: 
+Es una pagina ecommerce de cigarros electronicos (vapes).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/kimboneri/Proyecto-ECOMMERCE/assets/116984209/9b463adc-7291-4621-8b0b-3ef546a6123a)
 
-Currently, two official plugins are available:
+# PARA INICIALIZAR EL PROYECTO 
+1. npm install
+2. npm run dev 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

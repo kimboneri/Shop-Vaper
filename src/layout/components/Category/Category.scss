@@ -21,6 +21,9 @@
         @include container;
         display: flex;
         gap: 5rem;
+        @include desktop{
+            display: grid;
+        }
     }
 }
 

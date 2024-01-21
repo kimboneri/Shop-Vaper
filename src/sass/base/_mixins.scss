@@ -23,6 +23,12 @@
       @content;
     }
   }
+  @mixin phoneMin {
+    @media (max-width: #{$phoneMin}) {
+      @content;
+    }
+  }
+  
   
   @mixin grid($columns, $spacing ) {
     display: grid;

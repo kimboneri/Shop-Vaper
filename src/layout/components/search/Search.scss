@@ -9,15 +9,14 @@
     width: 250px;
     height: 40px;
     padding: 0 1rem;
-    @include tablet{
-        width: 100%;
-    }
-   @include phone {
-    width: 100%;
-   }
+    
+   
     svg{
         fill: $gray;
         width: 25px;
+        @include phoneMin{
+            width: 20px;
+        }
        
     }
     input{

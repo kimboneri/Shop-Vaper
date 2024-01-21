@@ -15,6 +15,26 @@ const Slider = ({ slides, perView, arrows, autoplay }) => {
         slidesPerView={perView}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
+        breakpoints={{
+          1000:{
+            slidesPerView: 4,
+          },
+          801:{
+            slidesPerView: 3,
+          },
+          651:{
+            slidesPerView: 2,
+          },
+          300:{
+            slidesPerView:1,
+          }
+
+
+        }
+       
+
+        } 
+
       >
         {slides.map((slide) => (
           <SwiperSlide className="swiper-slide" key={slide.id}>

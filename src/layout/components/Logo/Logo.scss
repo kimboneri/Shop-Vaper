@@ -2,7 +2,7 @@
 
 .img {
   width: 80px;
-  @include phone{
+  @include phoneMin{
     width: 50px;
   }
   img {

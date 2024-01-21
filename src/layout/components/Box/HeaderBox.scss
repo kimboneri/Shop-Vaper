@@ -2,4 +2,7 @@
 .header__box{
     @include display(flex,space-between,center,center);
     gap: 2rem;
+    @include phoneMin{
+        width: 100px;
+    }
 }
